@@ -1,7 +1,12 @@
 import React from "react";
+import CustomInputNumber from "./components/CustomInputNumber";
 
 function App() {
-  return <main>Hello World!</main>;
+  return (
+    <main>
+      <CustomInputNumber />
+    </main>
+  );
 }
 
 export default App;
