@@ -1,10 +1,10 @@
 import React from "react";
-import CustomInputNumber from "./components/CustomInputNumber";
+import RoomAllocation from "./pages/RoomAllocation";
 
 function App() {
   return (
     <main>
-      <CustomInputNumber />
+      <RoomAllocation />
     </main>
   );
 }
